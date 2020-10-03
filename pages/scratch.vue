@@ -1,13 +1,39 @@
-<template lang="pug">
-div
-	img.hero-image(src="../assets/images/vintage-test-two.jpeg")
-	.hero-text
-		h1.display-2 Old Scratch 
-		h1.display-4.mb-4 Mephistofelian Material
-		.d-flex
-			button.btn.btn-primary.btn-lg.mr-3 Theme Me  
-			button.btn.btn-secondary-two.btn-lg.mr-3 Beam Me
-			button.btn.btn-success-two.btn-lg Seme Me
+	<template lang="pug">
+.container-fluid
+	.row
+		.col
+			.card(style='width: 18rem;')
+				img.card-img-top(src='../assets/images/nyc-dynamo.jpg' alt='Dynamos')
+				.card-body
+					h5.card-title Old Scratch
+					p.card-text
+					a.btn.btn-primary(href='/') Power
+
+		.col
+			.card(style='width: 18rem;')
+				img.card-img-top(src='../assets/images/nyc-dynamo.jpg' alt='Dynamos')
+				.card-body
+					h5.card-title Old Scratch
+					p.card-text
+					a.btn.btn-primary(href='/') Power
+
+		.col
+			.card(style='width: 18rem;')
+				img.card-img-top(src='../assets/images/nyc-dynamo.jpg' alt='Dynamos')
+				.card-body
+					h5.card-title Old Scratch
+					p.card-text
+					a.btn.btn-primary(href='/') Power
+
+//- div
+//- 	img.hero-image(src="../assets/images/vintage-test-two.jpeg")
+//- 	.hero-text
+//- 		h1.display-2 Old Scratch 
+//- 		h1.display-4.mb-4 Mephistofelian Material
+//- 		.d-flex
+//- 			button.btn.btn-primary.btn-lg.mr-3 Theme Me  
+//- 			button.btn.btn-secondary-two.btn-lg.mr-3 Beam Me
+//- 			button.btn.btn-success-two.btn-lg Seme Me
 
 </template>
 

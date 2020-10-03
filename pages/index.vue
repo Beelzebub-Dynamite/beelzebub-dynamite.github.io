@@ -3,10 +3,10 @@ div
 	img.hero-image(src="../assets/images/vintage-test-two.jpeg")
 	.hero-text
 		h1.display-2 Test Pattern Indigene 
-		h1.display-4.mb-4 Mephistofelian Material
+		h1.display-4.mb-5 Mephistofelian Material
 		.d-flex
-			button.btn.btn-primary.btn-lg.mr-3 Theme Me  
-			button.btn.btn-secondary-two.btn-lg.mr-3 Seme Me
+			button.btn.btn-primary.btn-lg.mr-3(to="/scratch") Theme Me  
+			button.btn.btn-secondary-two.btn-lg.mr-3(to="/scratch") Seme Me
 			button.btn.btn-success-two.btn-lg(type='button' data-toggle='modal' data-target='#exampleModalCenter') Depeche Modal
 
 	.modal.fade#exampleModalCenter(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' 	aria-hidden='true')
@@ -21,8 +21,8 @@ div
 					| Mel et vocent propriae, fugit dissentiet mel ea, inani detraxit signiferumque ex ius. Ius amet delenit te, eu dictas recteque referrentur duo. Mel et vocent propriae, fugit dissentiet mel ea, inani detraxit signiferumque ex ius. Ius amet delenit te, eu dictas recteque referrentur duo. Mel et vocent propriae, fugit dissentiet mel ea, inani detraxit signiferumque ex ius. Ius amet delenit te, eu dictas recteque referrentur duo.
 
 				.modal-footer
-					button.btn.btn-secondary(type='button' data-dismiss='modal') Clausurar
-					button.btn.btn-primary(type='button') Escancarar
+					button.btn.btn-secondary.active(type='button' data-dismiss='modal') Clausurar
+					button.btn.btn-primary.active(type='button') Escancarar
 
 </template>
 
@@ -95,7 +95,8 @@ export default {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	background-color: #848482;
+	filter: grayscale(100%) contrast(40%) brightness(80%);
+	background-color: #6699cc;
 	background-blend-mode: multiply;
 }
 

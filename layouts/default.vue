@@ -2,7 +2,7 @@
 div
 	nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light
 		a.navbar-brand(href='/')
-			i.fas.fa-sun.fa-2x.mr-3
+			i.fas.fa-sun.fa-2x.mr-2
 			| Engenho Infernal Redux
 		button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
 			span.navbar-toggler-icon
@@ -63,29 +63,29 @@ div
 				li.nav-item.ml-auto
 					button.btn.btn-primary.ml-5(data-target='#DropDrawers' data-toggle='navdrawer' type='button') Navegar
 
-		.navdrawer#DropDrawers(aria-hidden='true' tabindex='-1')
-			.navdrawer-content
-				.navdrawer-header
-					a.navbar-brand.px-0(href='#') Engenhoca Saudosa Maloca
-				nav.navdrawer-nav
-					a.nav-item.nav-link.active(href='#') Active
-					a.nav-item.nav-link.disabled(href='#') Disabled
-					a.nav-item.nav-link(href='#') Link
-				.navdrawer-divider
-				p.navdrawer-subheader Navdrawer subheader
-				ul.navdrawer-nav
-					li.nav-item
-						a.nav-link.active(href='#')
-							i.material-icons.mr-3 alarm_on
-							|  Active with icon
-					li.nav-item
-						a.nav-link.disabled(href='#')
-							i.material-icons.mr-3 alarm_off
-							|  Disabled with icon
-					li.nav-item
-						a.nav-link(href='#')
-							i.material-icons.mr-3 link
-							|  Link with icon
+				.navdrawer#DropDrawers(aria-hidden='true' tabindex='-1')
+					.navdrawer-content
+						.navdrawer-header
+							a.navbar-brand.px-0(href='#') Engenhoca Saudosa Maloca
+						nav.navdrawer-nav
+							a.nav-item.nav-link.active(href='#') Active
+							a.nav-item.nav-link.disabled(href='#') Disabled
+							a.nav-item.nav-link(href='#') Link
+						.navdrawer-divider
+						p.navdrawer-subheader Navdrawer subheader
+						ul.navdrawer-nav
+							li.nav-item
+								a.nav-link.active(href='#')
+									i.material-icons.mr-3 alarm_on
+									|  Active with icon
+							li.nav-item
+								a.nav-link.disabled(href='#')
+									i.material-icons.mr-3 alarm_off
+									|  Disabled with icon
+							li.nav-item
+								a.nav-link(href='#')
+									i.material-icons.mr-3 link
+									|  Link with icon
 
 
 	nuxt
@@ -95,7 +95,11 @@ div
 
 <style>
 
-	body, html {
+	.navbar-brand {
+		font-size: 28px;
+	}
+
+body, html {
 		font-family: "News Cycle", sans-serif !important;
 		font-weight: 300 !important;
 		height: 100%;

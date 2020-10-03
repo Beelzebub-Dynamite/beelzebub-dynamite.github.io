@@ -2,8 +2,8 @@
 div
 	img.hero-image(src="../assets/images/vintage-test-two.jpeg")
 	.hero-text
-		h1.display-2 The Indian Head 
-		h1.display-4.mb-4 Mephistofelian Material
+		h1.display-2 Old Harry
+		h1.display-4.mb-4 Loitering at Crossroads
 		.d-flex
 			button.btn.btn-primary.btn-lg.mr-3 Theme Me  
 			button.btn.btn-secondary-two.btn-lg.mr-3 Beam Me
